@@ -44,7 +44,7 @@ git pull origin Main
 
 9. git stash : This command saves your current changes to the stash stack. Your working directory is then reverted to the state of the last commit.
 
-
+10. Hiding the last point
  
 
 
