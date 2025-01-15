@@ -1,0 +1,57 @@
+GIT WorkFlow and Commands:
+
+1. creating feature
+
+ git chekout -b feature/new- feature :  Creates the new branch and switches to it.
+
+2. Developing Feature : 
+
+git add <File>  : Stages the Specific File
+
+git add . : Stages all changes
+
+git commit -m "Added User authoutication Functionality"  :  Creates a new commit with the message.
+
+3. Test feature:
+
+Test in your local whether it works as expected.
+
+4. Create Pull Request 
+
+ 1. git push origin feature/new- feature  :  pushes the code in remote repository.
+
+ 2. Then Create a pull request on platform like bitbucket or github to merge the feature branch into main branch.
+ 
+5. Code review
+
+After the code review by collaborators including code standard suggestions.
+
+6. Merge Into Main
+
+git checkout Main   :  Switches to Main branch
+
+git merge feature/new- feature :  merges the feature branch
+
+7 . Deletes the feature branch
+
+git branch -d feature/new- feature
+
+
+8. To Pull
+
+git pull origin Main
+
+
+9. git stash : This command saves your current changes to the stash stack. Your working directory is then reverted to the state of the last commit.
+
+
+ 
+
+
+
+
+ 
+
+
+
+
